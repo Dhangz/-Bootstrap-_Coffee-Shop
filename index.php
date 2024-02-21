@@ -24,7 +24,7 @@
 
   <nav class="navbar navbar-light bg-transparent p-5">
   <div class="container-fluid">
-    <a class="navbar-brand text-light" style="margin-left: 30px;">CoffeeShop</a>
+    <a class="navbar-brand text-light" style="margin-left: 30px;"><img height="70" src="images/logo.png.crdownload" alt="Logo"></a>
     <ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link text-light" aria-current="page" href="#">Home</a>
@@ -43,8 +43,8 @@
   </li>
 </ul>
     <div class="d-flex">
-      <button class="btn btn-outline-warning" style="margin-right: 5px;">Login</button>
-      <button class="btn btn-warning text-light" type="submit" style="margin-right: 20px;">Sign Up</button>
+      <a class="btn btn-outline-warning" style="margin-right: 5px;" href="login.php">Login</a>
+      <a class="btn btn-warning text-light" style="margin-right: 20px;" href="registration.php">Sign Up</a>
     </div>
   </div>
 </nav>
@@ -75,7 +75,7 @@
     <center>
 
     <div class="carousel-item active" data-bs-interval="10000">
-      <div class="d-flex justify-content-evenly gap-5 px-5">
+      <div class="d-flex justify-content-evenly gap-2 px-5">
 
       <div class="card mb-3 bg-dark p-2" style="max-width: 500px;">
         <div class="row g-0">
